@@ -1,0 +1,6 @@
+"Operation System 3"
+race condition and two solution (Peterson and Semaphore)
+
+1. implement the race condition
+2. implement the Peterson's algorithm
+3. implement the Semaphore's algorithm
