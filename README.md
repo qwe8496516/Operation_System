@@ -6,4 +6,4 @@
 ### Tearcher : 林志敏
 
 
-### 
+### Software : VMware + Ubuntu
