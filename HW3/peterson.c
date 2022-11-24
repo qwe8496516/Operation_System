@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <pthread.h>
 #include <stdatomic.h>
-#define LOOP 5
+#define LOOP 100000
 
 int data = 0;
 
