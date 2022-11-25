@@ -13,11 +13,13 @@ global_data gdata;
 
 void semwait()
 {
+	// atomic_flag_test_and_set() make the flag to False -> wait the pre-thread finsh
 	while (atomic_flag_test_and_set(&gdata.m));
 	// P -> if resource is greater than 0 then allocation the resource
 	while (gdata.count <= 0);
 	gdata.count--;
 	/* --- */
+	// atomic_flag_test_and_set() make the flag to True -> the next thread can execute
 	atomic_flag_clear(&gdata.m);
 }
 
