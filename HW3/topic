@@ -2,5 +2,5 @@
 race condition and two solution (Peterson and Semaphore)
 
 1. implement the race condition
-2. implement the Peterson's algorithm
-3. implement the Semaphore's algorithm
+2. implement the Peterson's algorithm -> flag[2] 結構
+3. implement the Semaphore's algorithm -> atomic_flag 結構
