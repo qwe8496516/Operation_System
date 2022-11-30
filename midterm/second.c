@@ -1,3 +1,10 @@
+/*
+Write a C program, in UNIX/LINUX systems, creating 2 child processed with the following works:
+A. The first process print its own process ID and then return a value '100' to its parent process
+B. The second process executes a system command "cal 2022"
+C. The parent process prints the return code from its child process
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
